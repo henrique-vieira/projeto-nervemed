@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a8db87-9beb-45f4-af5f-2474cfd41609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/website/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../curso-django-udemy-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../curso_udemy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/0002_auto_20191218_1643.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0004_auto_20191218_1459.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/static/css/crm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/static/images/nervemed-s-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/templates/crm/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/templates/crm/common/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/website/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_multiselectfield-0.1.10-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_select_multiple_field-0.4.2-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_select_multiple_field-0.4.2-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_select_multiple_field-0.4.2-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_select_multiple_field-0.4.2-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/django_select_multiple_field-0.4.2-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/db/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/forms/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/multiselectfield/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/codecs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/venv/Lib/site-packages/select_multiple_field/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/.github/workflows/pythonapp.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/static/img/course-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/core/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/0002_auto_20190930_0320.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/0003_auto_20190930_0334.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/0004_coursemanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/0005_auto_20191013_1608.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/templates/courses/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/templates/courses/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/courses/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/media/courses/images/django-logo-negative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/cria_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/cria_paciente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0002_auto_20191218_0900.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0002_auto_20191218_0900.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0003_auto_20191218_1058.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0003_auto_20191218_1058.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/paciente/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_crm/crm/profissional/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/profissional/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V6lKOSHdWBmk5hYOGmooCoXWpN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../curso_django" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\website\static\website\css" />
+      <recent name="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\website\templates\admin" />
+      <recent name="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\config\tamplates\admin" />
+      <recent name="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\tamplates\admin" />
+      <recent name="C:\Users\carloshb\PycharmProjects\HelloWorldDjango-master\website\templates\website" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a8db87-9beb-45f4-af5f-2474cfd41609" name="Default Changelist" comment="" />
+      <created>1576154770488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576154770488</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576582571055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576582571055" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577736904260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577736904260" />
+    <state x="184" y="5" key="SettingsEditor" timestamp="1577129131382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577129131382" />
+    <state x="380" y="101" width="606" height="526" key="find.popup" timestamp="1577736102008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="101" width="606" height="526" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1577736102008" />
+  </component>
+</project>

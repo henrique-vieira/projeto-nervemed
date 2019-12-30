@@ -5,71 +5,78 @@
 {% block title %}Cadastro de Pacientes{% endblock %}
 
 {% block conteudo %}
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<form id="formid" action='' method="POST" novalidate enctype="multipart/form-data">
+  <div class="overview_form_block row marl justify-content-center">
+    <div class="col-md-9">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Cadastro de Paciente</h5>
-          <p class="card-text">
-            Complete o formulário abaixo para cadastrar
-            um novo <code>Paciente</code>.
-          </p>
-          <div method="post">
-            <!-- Não se esqueça dessa tag -->
-            {% csrf_token %}
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Dados Pessoais
-                    </button>
-                  </h4>
+          <div class="card-title text-center">
+            {% if objetos %}EDITAR{% else %}CRIAR{% endif %} CONTA
+          </div>
+          <div class="row marl">
+            <div class="col-md-4">
+              <div class="filter_col col-md-12">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="required">Nome{% if form.nome.field.required %}<span
+                      class="error_marker" style="color:red">*</span>{% endif %}</label>
+                  {% render_field form.nome class+="form-control" %}
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                   <div class="card-body">
-                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                   </div>
+              </div>
+              <div class="filter_col col-md-12">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Sobrenome{% if form.sobrenome.field.required %}<span
+                      class="error">*</span>{% endif %}</label>
+                  {% render_field form.sobrenome class+="form-control" %}
+                  <span class="error" id="id__website">{{ account_form.website.errors }}</span>
                 </div>
+              </div>
+              <div class="filter_col col-md-12">
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="required">Sexo{% if form.sexo.field.required %}<span
+                      class="error_marker" style="color:red">*</span>{% endif %}</label>
+                  {% render_field form.sexo class+="form-control" %}
+
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h4 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Documentos
-                      </button>
-                    </h4>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h4 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Endereço
-                        </button>
-                      </h4>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                      <div class="card-body">
-                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
+              </div>
+              <div class="filter_col col-md-12">
+                <div class="form-group ">
+                  <label for="exampleInputEmail1" class="required">Data Nascimento{% if form.data_nascimento.field.required %}<span class="error_marker"
+                      style="color:red">*</span>{% endif %}</label>
+                  {% render_field form.data_nascimento class+="form-control" %}
                 </div>
-            <hr>
-            <div class="text-right">
-              <a href="{% url 'website:lista_pacientes' %}" class="btn btn-outline-primary">Voltar</a>
-              <button class="btn btn-primary">Enviar</button>
+              </div>
+              <div class="filter_col col-md-12">
+                <div class="form-group ">
+                  <label for="exampleInputEmail1" class="required">Acompanhante{% if form.acompanhante.field.required %}<span
+                      class="error_marker" style="color:red">*</span>{% endif %}</label>
+                  {% render_field form.data_nascimento class+="form-control" %}
+                </div>
+              </div>
             </div>
-          </form>
+            <div class="col-md-4">
+              <div class="filter_col billing_block col-md-12" style="padding: 0px;">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Endereço
+                    {% if form.endereco.field.required %}<span class="error_marker"
+                      style="color:red">*</span>{% endif %}</label>
+                  {% render_field form.endereco class+="form-control" %}
+                </div>
+              </div>
+            </div>
+           <div class="col-md-12">
+              <div class="row marl buttons_row form_btn_row text-center">
+                <button class="btn btn-default save" type="submit" id="call_save">Salvar</button>
+                <a href="{% url 'website:lista_pacientes' %}" class="btn btn-default clear" id="create_user_cancel">Cancelar</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-</div>
+  </div>
+  <!-- overview ends here -->
+</form>
 {% endblock %}
+
+
+
