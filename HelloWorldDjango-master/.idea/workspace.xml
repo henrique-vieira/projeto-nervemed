@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a8db87-9beb-45f4-af5f-2474cfd41609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/templates/registration/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../curso-django-udemy-master.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../curso_udemy/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/0001_initial.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/0002_auto_20191218_1643.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../new_crm/crm/core/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../new_crm/crm/paciente/migrations/0004_auto_20191218_1459.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../new_crm/crm/static/css/crm.css" afterDir="false" />
@@ -87,8 +87,6 @@
       <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../simplemooc/simplemooc/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/cria_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/cria_paciente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/anamnese/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../new_crm/crm/crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../new_crm/crm/core/urls.py" afterDir="false" />
@@ -176,13 +174,29 @@
       <option name="presentableId" value="Default" />
       <updated>1576154770488</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Novos models historico e atendimento">
+      <created>1577737417288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577737417288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Novos models historico e atendimento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Novos models historico e atendimento" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576582571055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576582571055" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1577737400278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577737400278" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577736904260">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
